@@ -1,0 +1,129 @@
+.footer {
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(30, 30, 36) 35%, rgb(65, 69, 70) 100%);
+}
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 0px;
+    box-shadow: 0px 2px 10px black;
+    background: rgb(36, 0, 0);
+    background: linear-gradient(90deg, rgb(36, 0, 36) 0%, rgb(138, 38, 138) 50%, rgb(98, 0, 122) 100%);
+    color: white;
+}
+
+.heading-h1 {
+    font-weight: 600;
+}
+
+.footer-quick-links {
+    font-size: 1.3rem;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-li:hover {
+    font-size: 1.5rem;
+    color: white;
+    transition: 0.5s;
+}
+
+/* .footer-li {
+    border-bottom: 1px solid black;
+    color: white;
+} */
+
+.footer-address {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+}
+
+.footer-copyright {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(30, 30, 36) 35%, rgb(65, 69, 70) 100%);
+    color: white;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 60px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 720px) {
+    .footer {
+        width: auto;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .footer-address {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .footer-quick-links {
+        font-size: 1.1rem;
+    }
+
+    .heading-h1 {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 415px) {
+    .footer {
+        width: auto;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .footer-address {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .footer-quick-links {
+        font-size: 1.1rem;
+    }
+
+    .heading-h1 {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .footer-copyright {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(30, 30, 36) 35%, rgb(65, 69, 70) 100%);
+        color: white;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 120px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+}
