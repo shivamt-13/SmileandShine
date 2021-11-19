@@ -1,0 +1,98 @@
+.Carousel {
+    margin-top: 90px !important;
+    width: 96%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.c-container {
+    position: relative;
+}
+
+.Carousel1 {
+    margin-top: 90px;
+    width: 96%;
+    padding: 2%;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-img1 {
+    width: 90%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 2px 10px black;
+}
+
+.car-card {
+    width: 60%;
+    /* box-shadow: 0px 2px 10px black; */
+    border: brown solid 2px;
+    height: auto;
+    color: black;
+    padding: 20px;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+.carousel-font {
+    font-size: 2rem;
+}
+
+.car-heading {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
+    font-size: 3rem;
+    color: brown;
+}
+
+@media (max-width: 720px) {
+    .carousel-img {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 415px) {
+    .text-block {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 0.7rem;
+        background-color: rgba(0, 0, 0, 0.4);
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .carousel-font {
+        font-size: 1rem;
+    }
+
+    .carousel-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .carousel-img1 {
+        width: 100%;
+        height: 100px;
+    }
+
+    .Carousel1 {
+        margin-top: 90px;
+        width: 96%;
+        padding: 2%;
+    }
+}
