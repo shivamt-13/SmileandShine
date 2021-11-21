@@ -1,13 +1,15 @@
 import './App.css';
 import Header from '../src/components/header/Navbar'
 import Footer from '../src/components/footer/Footer'
-import Carousel from '../src/components/elements/Carousel'
+import LandingPage from './components/Landingpage';
+import Vision from './components/Vision';
 
 function App() {
   return (
     <>
       <Header/>
-      <Carousel/>
+      {/* <LandingPage/> */}
+      <Vision/>
       <Footer/>
     </>
   );

@@ -38,7 +38,7 @@ const Navbar =() =>{
                             <p className="Header_Links">HOME</p>
                             </li>
                             <li>
-                            <p className="Header_Links">DONATE</p>
+                            <a href="https://rzp.io/l/ixwnVOw0"><p className="Header_Links">DONATE</p></a>
                             </li>
                             <li>
                             <p className="Header_Links">ABOUT US</p>

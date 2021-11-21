@@ -37,7 +37,7 @@ const Sidedrawer = ({show, closeSidedrawer}) => {
                     <p className="Header_Links">HOME</p>
                     </li>
                     <li className="sidedrawer-menu">
-                    <p className="Header_Links">DOANTE</p>
+                    <a href="https://rzp.io/l/ixwnVOw0"><p className="Header_Links">DONATE</p></a>
                     </li>
                     <li className="sidedrawer-menu">
                     <p className="Header_Links">ABOUT US</p>

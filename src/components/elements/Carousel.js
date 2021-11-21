@@ -8,8 +8,9 @@ import img2 from "../../assets/poor2.jpeg";
 import img3 from "../../assets/poor5.jpeg";
 const App = () => {
   return (
+    <center>
     <div className="Carousel">
-    <CCarousel controls transition="crossfade" style={{width="96%",marginTop:"90px"}}>
+    <CCarousel controls transition="crossfade" style={{width:"96%",marginTop:"90px"}}>
         <CCarouselItem>
           <CImage className="d-block w-100" src={img1} alt="slide 1" />
         </CCarouselItem>
@@ -21,6 +22,7 @@ const App = () => {
         </CCarouselItem>
     </CCarousel>
     </div>
+    </center>
   );
 };
 export default App;
