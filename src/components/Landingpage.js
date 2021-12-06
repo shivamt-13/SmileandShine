@@ -14,7 +14,7 @@ class LandingPage extends Component {
             <br/>
                 <div className="main_component">
                     <div className="main_component_part1">
-                        <img className="component_img" src={img1}/>
+                        <img className="component_img" src={img1} alt="img3"/>
                     </div>
                     <div className="main_component_part2">
                         <p>
@@ -31,12 +31,12 @@ class LandingPage extends Component {
                         </p>
                     </div>
                     <div className="main_component_part1">
-                        <img className="component_img" src={img2}/>
+                        <img className="component_img" src={img2} alt="img1"/>
                     </div>
                 </div>
                 <div className="main_component">
                     <div className="main_component_part1">
-                        <img className="component_img" src={img3}/>
+                        <img className="component_img" src={img3} alt="img2"/>
                     </div>
                     <div className="main_component_part2">
                         <p>

@@ -1,0 +1,28 @@
+.about_body {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    background-color: rgb(241, 145, 241);
+}
+
+.about {
+    margin-top: 90px;
+}
+
+.card_pannel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 40%;
+    padding: 2%;
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, rgb(182, 114, 199) 10%, rgb(245, 178, 245) 40%, rgb(182, 114, 199) 100%);
+}
+
+.card_img {
+    width: 50%;
+    height: 100%;
+}
