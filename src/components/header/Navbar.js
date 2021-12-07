@@ -35,16 +35,16 @@ const Navbar =() =>{
                     <div className="Header_LinksContainer">
                         <ul className="Header_Links">
                             <li>
-                            <p className="Header_Links">HOME</p>
+                            <a href="/"> <p className="Header_Links">HOME</p></a>
                             </li>
                             <li>
-                            <p className="Header_Links">DONATE</p>
+                            <a href="https://rzp.io/l/ixwnVOw0"><p className="Header_Links">DONATE</p></a>
                             </li>
                             <li>
-                            <p className="Header_Links">ABOUT US</p>
+                            <a href="/about-us"><p className="Header_Links">ABOUT US</p></a>
                             </li>
                             <li>
-                            <p className="Header_Links">VISION</p>
+                            <a href="/vision"><p className="Header_Links">VISION</p></a>
                             </li>
                         </ul>
                     </div>

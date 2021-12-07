@@ -1,0 +1,27 @@
+.vision_body {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    background-color: rgb(241, 145, 241);
+}
+
+.vision_component {
+    margin-top: 80px;
+    height: auto;
+    background: linear-gradient(90deg, rgb(182, 114, 199) 10%, rgb(245, 178, 245) 40%, rgb(182, 114, 199) 100%);
+    width: 96%;
+    padding: 2%;
+}
+
+.vision_text {
+    font-size: 2rem;
+}
+
+.vision_button {
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    width: 160px;
+    height: 50px;
+    background: linear-gradient(90deg, rgb(36, 0, 36) 0%, rgb(138, 38, 138) 50%, rgb(98, 0, 122) 100%);
+}
